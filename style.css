@@ -1,0 +1,401 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@font-face {
+  font-family: 'Qanelas';
+  src: url('fonts/Qanelas/Qanelas-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Qanelas';
+  src: url('fonts/Qanelas/Qanelas-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Пример использования */
+body {
+  font-family: 'Qanelas', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: calc(13.31vw - 12.6px);
+    margin-right: calc(13.5vw - 14.2px);
+    background-color: transparent;
+    position: fixed;
+}
+
+.header_mobile {
+    display: none;
+}
+
+section {
+    margin-left: calc(13.31vw - 12.6px);
+    margin-right: calc(13.5vw - 14.2px);
+}
+
+.logo {
+    width: calc(2.18vw + 87px);
+    height: calc(6.12vw + 11.4px);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 98px;
+}
+
+a { 
+  text-decoration: none;
+  color: #E3E6F0B8;
+  transition: color 1s;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+.auth-register-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-left: 100px;
+}
+
+.search {
+    display: block;
+    width: 60px;
+    height: 52px;
+}
+
+.auth-register-btn button {
+    width: calc(3.93vw + 62.4px);
+    height: calc(1.43vw + 25.4px);
+    border-radius: calc(0.31vw + 4px);
+    background: #3657CB;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 15px 0px #4871FFCC;
+    border: none;
+    font-weight: 700;
+    font-size: calc(0.31vw + 10px);
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.search:hover {
+    cursor: pointer;
+}
+
+.auth-register-btn button:hover {
+    cursor: pointer;
+}
+
+#search {
+        display: none;
+    }
+
+    .burger_menu_mobile {
+        display: none;
+    }
+
+@media (max-width:772px) {
+    header {
+        display:flex;
+        margin-top: 11px;
+    }
+
+    .header_mobile {
+        display: flex !important;
+        gap: 10px;
+}
+
+    nav {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    #search {
+        display: block;
+    }
+
+    .burger_menu_mobile {
+        display: block;
+    }
+}
+
+
+#search {
+    width: 27px !important;
+    height: 27px !important;
+}
+
+ .burger_menu_mobile {
+    width: 27px;
+    height: 27px;
+ }
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: calc(13.31vw - 12.6px);
+    margin-right: calc(13.5vw - 14.2px);
+    
+}
+
+.header_mobile {
+    display: none;
+}
+
+section {
+    margin-left: calc(13.31vw - 12.6px);
+    margin-right: calc(13.5vw - 14.2px);
+}
+
+.logo {
+    width: calc(2.18vw + 87px);
+    height: calc(6.12vw + 11.4px);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 27px;
+}
+
+a { 
+  text-decoration: none;
+  color: #E3E6F0B8;
+  transition: color 1s;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+.auth-register-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.search {
+    display: block;
+    width: 60px;
+    height: 52px;
+}
+
+.auth-register-btn button {
+    width: calc(3.93vw + 62.4px);
+    height: calc(1.43vw + 25.4px);
+    border-radius: calc(0.31vw + 4px);
+    background: #3657CB;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 15px 0px #4871FFCC;
+    border: none;
+    font-weight: 700;
+    font-size: calc(0.31vw + 10px);
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.search:hover {
+    cursor: pointer;
+}
+
+.auth-register-btn button:hover {
+    cursor: pointer;
+}
+
+#search {
+        display: none;
+    }
+
+    .burger_menu_mobile {
+        display: none;
+    }
+
+@media (max-width:772px) {
+    header {
+        display:flex;
+        margin-top: 11px;
+    }
+
+    .header_mobile {
+        display: flex !important;
+        gap: 10px;
+}
+
+    nav {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    #search {
+        display: block;
+    }
+
+    .burger_menu_mobile {
+        display: block;
+    }
+}
+
+
+#search {
+    width: 27px !important;
+    height: 27px !important;
+}
+
+ .burger_menu_mobile {
+    width: 27px;
+    height: 27px;
+ }
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: calc(13.31vw - 12.6px);
+    margin-right: calc(13.5vw - 14.2px);
+    
+}
+
+.header_mobile {
+    display: none;
+}
+
+section {
+    margin-left: calc(13.31vw - 12.6px);
+    margin-right: calc(13.5vw - 14.2px);
+}
+
+.logo {
+    width: calc(2.18vw + 87px);
+    height: calc(6.12vw + 11.4px);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 27px;
+}
+
+a { 
+  text-decoration: none;
+  color: #FFFFFF;
+  transition: color 1s;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+.auth-register-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.search {
+    display: block;
+    width: 60px;
+    height: 52px;
+}
+
+.auth-register-btn button {
+    width: calc(3.93vw + 62.4px);
+    height: calc(1.43vw + 25.4px);
+    border-radius: calc(0.31vw + 4px);
+    background: #3657CB;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 15px 0px #4871FFCC;
+    border: none;
+    font-weight: 700;
+    font-size: calc(0.31vw + 10px);
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.search:hover {
+    cursor: pointer;
+}
+
+.auth-register-btn button:hover {
+    cursor: pointer;
+}
+
+#search {
+        display: none;
+    }
+
+    .burger_menu_mobile {
+        display: none;
+    }
+
+@media (max-width:772px) {
+    header {
+        display:flex;
+        margin-top: 11px;
+    }
+
+    .header_mobile {
+        display: flex !important;
+        gap: 10px;
+}
+
+    nav {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    #search {
+        display: block;
+    }
+
+    .burger_menu_mobile {
+        display: block;
+    }
+}
+
+
+#search {
+    width: 27px !important;
+    height: 27px !important;
+}
+
+ .burger_menu_mobile {
+    width: 27px;
+    height: 27px;
+ }
+ .new{
+    background-image: url(./img/7a188e130f7ceb74f39c8622dfb623220e93a372.png);
+    height: 150vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    background-color: #1B2133;
+ }
